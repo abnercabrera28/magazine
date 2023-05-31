@@ -102,3 +102,11 @@ img {
   grid-auto-columns: 1fr; /* will make the content fit based on fraction */
   align-items: center;
 }
+
+/* ::first-letter targets first letter in text content */
+.first-paragraph::first-letter {
+  font-size: 6rem;
+  color: orangered;
+  float: left;
+  margin-right: 1rem;
+}
