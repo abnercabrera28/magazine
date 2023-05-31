@@ -47,8 +47,14 @@ main {
 .heading {
   display: grid;
   grid-column: 2/3;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1.5rem;
 }
 
 .text {
   grid-column: 2/3;
+}
+
+.hero {
+  grid-column: 1 / -1; /* will span full width */
 }
