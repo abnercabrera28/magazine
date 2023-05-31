@@ -89,3 +89,12 @@ img {
 .publish-date {
   color: rgba(255, 255, 255, 0.5);
 }
+
+.social-icons {
+  display: grid;
+  font-size: 3rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column; /* will add new column if new content */
+  grid-auto-columns: 1fr; /* will make the content fit based on fraction */
+  align-items: center;
+}
