@@ -57,4 +57,10 @@ main {
 
 .hero {
   grid-column: 1 / -1; /* will span full width */
+  position: relative;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
 }
